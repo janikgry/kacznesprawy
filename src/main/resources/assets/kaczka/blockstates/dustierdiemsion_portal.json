@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "kaczka:block/dustierdiemsion_portal_ew"
+    },
+    "axis=x": {
+      "model": "kaczka:block/dustierdiemsion_portal_ns"
+    }
+  }
+}

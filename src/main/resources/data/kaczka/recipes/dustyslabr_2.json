@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "kaczka:dustyplanks"
+    },
+    "1": {
+      "item": "kaczka:dustyplanks"
+    },
+    "2": {
+      "item": "kaczka:dustyplanks"
+    }
+  },
+  "result": {
+    "item": "kaczka:dustyslab",
+    "count": 6
+  }
+}

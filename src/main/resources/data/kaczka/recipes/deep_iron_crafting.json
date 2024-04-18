@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kaczka:deep_shard"
+    },
+    {
+      "item": "kaczka:deep_shard"
+    },
+    {
+      "item": "kaczka:deep_shard"
+    },
+    {
+      "item": "kaczka:deep_shard"
+    },
+    {
+      "item": "kaczka:deep_shard"
+    },
+    {
+      "item": "kaczka:deep_shard"
+    },
+    {
+      "item": "kaczka:deep_shard"
+    },
+    {
+      "item": "kaczka:deep_shard"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "kaczka:deep_iron",
+    "count": 1
+  }
+}

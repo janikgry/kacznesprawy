@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/dustycryingglowstone",
+    "up": "kaczka:blocks/dustycryingglowstone",
+    "north": "kaczka:blocks/dustycryingglowstone",
+    "east": "kaczka:blocks/dustycryingglowstone",
+    "south": "kaczka:blocks/dustycryingglowstone",
+    "west": "kaczka:blocks/dustycryingglowstone",
+    "particle": "kaczka:blocks/dustycryingglowstone"
+  }
+}

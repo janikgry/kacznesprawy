@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/glowing_obsidian",
+    "up": "kaczka:blocks/glowing_obsidian",
+    "north": "kaczka:blocks/glowing_obsidian",
+    "east": "kaczka:blocks/glowing_obsidian",
+    "south": "kaczka:blocks/glowing_obsidian",
+    "west": "kaczka:blocks/glowing_obsidian",
+    "particle": "kaczka:blocks/glowing_obsidian"
+  }
+}

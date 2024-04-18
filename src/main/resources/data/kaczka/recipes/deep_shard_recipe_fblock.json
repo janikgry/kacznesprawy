@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kaczka:deep_shard_block"
+    }
+  ],
+  "result": {
+    "item": "kaczka:deep_shard",
+    "count": 9
+  }
+}

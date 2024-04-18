@@ -1,0 +1,58 @@
+{
+  "_fv": 34,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Dustyplains"
+      },
+      {
+        "value": "CUSTOM:Dustywoods"
+      },
+      {
+        "value": "CUSTOM:Dustywastelands"
+      },
+      {
+        "value": "CUSTOM:Wastelands2"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Dustystone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "BED_EXPLODES",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "onPlayerEntersDimension": {
+      "name": "DustydimensionPlayerEntersDimension"
+    },
+    "portalFrame": {
+      "value": "CUSTOM:Dustyobsidian"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:Dustparticle"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "obsidian and steel",
+    "igniterTab": {
+      "value": "CUSTOM:Kaczka"
+    },
+    "texture": "dusty_obsidian_and_steel",
+    "portalTexture": "dusty_portal_anim",
+    "enablePortal": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kaczka:rubyblock"
+    }
+  ],
+  "result": {
+    "item": "kaczka:ruby",
+    "count": 9
+  }
+}

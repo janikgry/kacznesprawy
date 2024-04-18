@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "kaczka:rubyprismarine"
+    },
+    "4": {
+      "item": "kaczka:rubyprismarine"
+    },
+    "5": {
+      "item": "kaczka:rubyprismarine"
+    },
+    "6": {
+      "item": "kaczka:rubyprismarine"
+    },
+    "7": {
+      "item": "kaczka:rubyprismarine"
+    },
+    "8": {
+      "item": "kaczka:rubyprismarine"
+    }
+  },
+  "result": {
+    "item": "kaczka:rubyprismarinestairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kaczka:block/goldenbrickslab"
+    },
+    "type=top": {
+      "model": "kaczka:block/goldenbrickslab_top"
+    },
+    "type=double": {
+      "model": "kaczka:block/goldenbrickslab_full"
+    }
+  }
+}

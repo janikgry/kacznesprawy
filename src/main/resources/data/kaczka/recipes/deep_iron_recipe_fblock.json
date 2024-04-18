@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kaczka:deep_iron_block"
+    }
+  ],
+  "result": {
+    "item": "kaczka:deep_iron",
+    "count": 9
+  }
+}

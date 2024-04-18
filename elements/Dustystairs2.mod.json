@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Dustyplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dustyplanks"
+      },
+      {
+        "value": "CUSTOM:Dustyplanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dustyplanks"
+      },
+      {
+        "value": "CUSTOM:Dustyplanks"
+      },
+      {
+        "value": "CUSTOM:Dustyplanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Dustystairs"
+    },
+    "name": "dustystairs_2",
+    "namespace": "mod"
+  }
+}

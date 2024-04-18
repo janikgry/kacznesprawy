@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "kaczka:block/dustylog"
+    },
+    "facing=east": {
+      "model": "kaczka:block/dustylog",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "kaczka:block/dustylog",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "kaczka:block/dustylog",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "kaczka:goldenbricks"
+    },
+    "1": {
+      "item": "kaczka:goldenbricks"
+    },
+    "2": {
+      "item": "kaczka:goldenbricks"
+    }
+  },
+  "result": {
+    "item": "kaczka:goldenbrickslab",
+    "count": 6
+  }
+}

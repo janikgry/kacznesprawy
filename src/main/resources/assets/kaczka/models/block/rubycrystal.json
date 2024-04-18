@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/ruby_crystal",
+    "up": "kaczka:blocks/ruby_crystal",
+    "north": "kaczka:blocks/ruby_crystal",
+    "east": "kaczka:blocks/ruby_crystal",
+    "south": "kaczka:blocks/ruby_crystal",
+    "west": "kaczka:blocks/ruby_crystal",
+    "particle": "kaczka:blocks/ruby_crystal"
+  }
+}

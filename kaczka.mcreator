@@ -1,0 +1,2102 @@
+{
+  "mod_elements": [
+    {
+      "name": "Gildedclay",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclay"
+    },
+    {
+      "name": "Kaczka",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaczka"
+    },
+    {
+      "name": "Gildedclaypiece",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclaypiece"
+    },
+    {
+      "name": "Gildedclaydrops",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclaydrops",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gildedclaysmelting",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclaysmelting"
+    },
+    {
+      "name": "Goldenbricks",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricks"
+    },
+    {
+      "name": "Guildedbricks",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guildedbricks"
+    },
+    {
+      "name": "Gildedclayblockcrafting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gildedclayblockcrafting"
+    },
+    {
+      "name": "Netherdiamondore",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherdiamondore"
+    },
+    {
+      "name": "Diamondnethersmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondnethersmelting"
+    },
+    {
+      "name": "FireworksProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireworks_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fireworks",
+      "type": "rangeditem",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireworks"
+    },
+    {
+      "name": "Fireworksrecipiititit",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fireworksrecipiititit"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby"
+    },
+    {
+      "name": "RubyoreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rubyore",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyore"
+    },
+    {
+      "name": "Rubycaveparticle",
+      "type": "particle",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycaveparticle"
+    },
+    {
+      "name": "Rubycave",
+      "type": "biome",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycave"
+    },
+    {
+      "name": "Rubyprismarine",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarine"
+    },
+    {
+      "name": "Rubyprismarinecrafting",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinecrafting"
+    },
+    {
+      "name": "Rubyblock",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyblock"
+    },
+    {
+      "name": "Rubyprismarinestairs",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinestairs"
+    },
+    {
+      "name": "Rubyprismarineslab",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarineslab"
+    },
+    {
+      "name": "Goldenbrickstairs",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbrickstairs"
+    },
+    {
+      "name": "Goldenbrickslab",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbrickslab"
+    },
+    {
+      "name": "Rubyprismarineslabrecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarineslabrecipe"
+    },
+    {
+      "name": "Rubyprismarineslabr2",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarineslabr_2"
+    },
+    {
+      "name": "Rubyprismarineslabr3",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarineslabr_3"
+    },
+    {
+      "name": "Rubyprismarinestairsrecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinestairsrecipe"
+    },
+    {
+      "name": "Rubyprismarinestairsr2",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinestairsr_2"
+    },
+    {
+      "name": "RubyPrismarineslabstonecutting",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_prismarineslabstonecutting"
+    },
+    {
+      "name": "Rubyprismarinestairsstonecutting",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyprismarinestairsstonecutting"
+    },
+    {
+      "name": "Goldenbricksslabr1",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksslabr_1"
+    },
+    {
+      "name": "Goldenbricksslabr2",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksslabr_2"
+    },
+    {
+      "name": "Goldenbricksslabr3",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksslabr_3"
+    },
+    {
+      "name": "Goldenbricksstairsr1",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksstairsr_1"
+    },
+    {
+      "name": "Goldenbricksstairsr2",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksstairsr_2"
+    },
+    {
+      "name": "Goldenbricksslabstonecutting",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksslabstonecutting"
+    },
+    {
+      "name": "Goldenbricksstairsstonecutting",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldenbricksstairsstonecutting"
+    },
+    {
+      "name": "Rubylantern",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubylantern"
+    },
+    {
+      "name": "Rubylanterncraft",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubylanterncraft"
+    },
+    {
+      "name": "CesiumampuleProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cesiumampule_projectile_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cesiumampule",
+      "type": "rangeditem",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cesiumampule"
+    },
+    {
+      "name": "RubyneckleBodyTickEvent",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyneckle_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rubyneckle",
+      "type": "armor",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyneckle",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "Rubyneckler1",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyneckler_1"
+    },
+    {
+      "name": "Rubyflower",
+      "type": "plant",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyflower"
+    },
+    {
+      "name": "RubyflowerR1",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyflower_r_1"
+    },
+    {
+      "name": "RubyflowerR2",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyflower_r_2"
+    },
+    {
+      "name": "Rubycrystal",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubycrystal"
+    },
+    {
+      "name": "Jadeitegravelore",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitegravelore"
+    },
+    {
+      "name": "Jadeiteblock",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeiteblock"
+    },
+    {
+      "name": "JadeitegraveloreUpdateTick",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeitegravelore_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jadeiteparticle",
+      "type": "particle",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jadeiteparticle"
+    },
+    {
+      "name": "Deepstone",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepstone"
+    },
+    {
+      "name": "DeepstoneCrafting",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepstone_crafting"
+    },
+    {
+      "name": "DeepShard",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_shard"
+    },
+    {
+      "name": "DeepIron",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron"
+    },
+    {
+      "name": "DeepIronCrafting",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_crafting"
+    },
+    {
+      "name": "DeepIronBlock",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_block"
+    },
+    {
+      "name": "DeepIronBladeLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_blade_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepIronBlade",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_blade"
+    },
+    {
+      "name": "DeepIronBladeGrind",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_blade_grind"
+    },
+    {
+      "name": "DeepIronBlockCrafting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_block_crafting"
+    },
+    {
+      "name": "Dust",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dust"
+    },
+    {
+      "name": "Dustyobsidian",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyobsidian"
+    },
+    {
+      "name": "DustyobsidianR1",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyobsidian_r_1"
+    },
+    {
+      "name": "Depth",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth"
+    },
+    {
+      "name": "BlockOfDepth",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_of_depth"
+    },
+    {
+      "name": "BlockDepthRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "block_depth_recipe"
+    },
+    {
+      "name": "DeepShardBlock",
+      "type": "block",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_shard_block"
+    },
+    {
+      "name": "DeepShardBlockRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_shard_block_recipe"
+    },
+    {
+      "name": "DeepShardRecipeFBLOCK",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_shard_recipe_fblock"
+    },
+    {
+      "name": "DepthRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_recipe"
+    },
+    {
+      "name": "DepthRecipeFBLOCK",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_recipe_fblock"
+    },
+    {
+      "name": "DeepIronRecipeFBLOCK",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deep_iron_recipe_fblock"
+    },
+    {
+      "name": "DepthExtractorInterface",
+      "type": "gui",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor_interface"
+    },
+    {
+      "name": "DepthExtractorExtract",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor_extract",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DepthExtractorOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DepthExtractor",
+      "type": "block",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor"
+    },
+    {
+      "name": "DepthExtractorRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "depth_extractor_recipe"
+    },
+    {
+      "name": "Dustydirt",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustydirt"
+    },
+    {
+      "name": "Dustygrass",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustygrass"
+    },
+    {
+      "name": "DustygrassBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustygrass_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ToretzanOre",
+      "type": "block",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toretzan_ore"
+    },
+    {
+      "name": "Toretzan",
+      "type": "item",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "toretzan"
+    },
+    {
+      "name": "ForavaraOre",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foravara_ore"
+    },
+    {
+      "name": "Foravara",
+      "type": "item",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "foravara"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items"
+    },
+    {
+      "name": "Dustyplains",
+      "type": "biome",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyplains"
+    },
+    {
+      "name": "Dustyplanks",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyplanks"
+    },
+    {
+      "name": "Dustylog",
+      "type": "block",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustylog"
+    },
+    {
+      "name": "DustylogBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustylog_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustyleaves",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyleaves"
+    },
+    {
+      "name": "DustyleavesBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyleaves_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Dustydimension",
+      "type": "dimension",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustydimension",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Dustyhouseloot",
+      "type": "loottable",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyhouseloot"
+    },
+    {
+      "name": "Dustystairs",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystairs"
+    },
+    {
+      "name": "Dustyslab",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyslab"
+    },
+    {
+      "name": "Dustystairs1",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystairs_1"
+    },
+    {
+      "name": "Dustystairs2",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystairs_2"
+    },
+    {
+      "name": "Dustyslabr1",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyslabr_1"
+    },
+    {
+      "name": "Dustyslabr2",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyslabr_2"
+    },
+    {
+      "name": "Dustyslabr3",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyslabr_3"
+    },
+    {
+      "name": "Dusttostick",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusttostick"
+    },
+    {
+      "name": "Dustysapling",
+      "type": "block",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustysapling"
+    },
+    {
+      "name": "DustyleavesBlockDestroyedByPlayer2",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyleaves_block_destroyed_by_player_2",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Aslongasyouhaveenoughrubies",
+      "type": "achievement",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aslongasyouhaveenoughrubies"
+    },
+    {
+      "name": "What",
+      "type": "achievement",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what"
+    },
+    {
+      "name": "Tearsintherain",
+      "type": "achievement",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tearsintherain"
+    },
+    {
+      "name": "Doneanddusted",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "doneanddusted"
+    },
+    {
+      "name": "Backintime",
+      "type": "achievement",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backintime"
+    },
+    {
+      "name": "Dustytree",
+      "type": "structure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustytree"
+    },
+    {
+      "name": "DustysaplingUpdateTick",
+      "type": "procedure",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustysapling_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DustysaplingBlockAdded",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustysapling_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DustysaplingOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustysapling_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustywoods",
+      "type": "biome",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustywoods"
+    },
+    {
+      "name": "Dustycrafting",
+      "type": "gui",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycrafting"
+    },
+    {
+      "name": "Dustycraftingtable",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycraftingtable"
+    },
+    {
+      "name": "DustycraftingtableBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycraftingtable_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustycraftingr",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycraftingr"
+    },
+    {
+      "name": "Dustystone",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystone"
+    },
+    {
+      "name": "Dusth",
+      "type": "loottable",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dusth"
+    },
+    {
+      "name": "Dustycobblestone",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycobblestone"
+    },
+    {
+      "name": "Dustparticle",
+      "type": "particle",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustparticle"
+    },
+    {
+      "name": "DustydimensionPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustydimension_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustcobbletocobble",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustcobbletocobble"
+    },
+    {
+      "name": "Dustymoss",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustymoss"
+    },
+    {
+      "name": "DustystoneBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustystone_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustymossbreak",
+      "type": "procedure",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustymossbreak",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustywastelands",
+      "type": "biome",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustywastelands"
+    },
+    {
+      "name": "Dustyhouse",
+      "type": "structure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyhouse"
+    },
+    {
+      "name": "Dustynetherrack",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustynetherrack"
+    },
+    {
+      "name": "Dustyglowstone",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyglowstone"
+    },
+    {
+      "name": "Dustyrubyore",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyrubyore"
+    },
+    {
+      "name": "Cryingglowstone",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cryingglowstone"
+    },
+    {
+      "name": "The",
+      "type": "block",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the"
+    },
+    {
+      "name": "DustyhousespawnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyhousespawn_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustyhousespawn",
+      "type": "block",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyhousespawn"
+    },
+    {
+      "name": "Wastelands2",
+      "type": "biome",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wastelands_2"
+    },
+    {
+      "name": "Sapphireoredestroy",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireoredestroy",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sapphireore",
+      "type": "block",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireore"
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire"
+    },
+    {
+      "name": "Sapphireparticle",
+      "type": "particle",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireparticle"
+    },
+    {
+      "name": "Sapphirecave",
+      "type": "biome",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphirecave"
+    },
+    {
+      "name": "Sapphireblock",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireblock"
+    },
+    {
+      "name": "Ssapphireblock",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ssapphireblock"
+    },
+    {
+      "name": "Emeraldcave",
+      "type": "biome",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emeraldcave"
+    },
+    {
+      "name": "Dustyglowstonebreak",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyglowstonebreak",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustierdiemsion",
+      "type": "dimension",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustierdiemsion",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Dustycryingobsidian",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycryingobsidian"
+    },
+    {
+      "name": "Dustycryingglowstone",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustycryingglowstone"
+    },
+    {
+      "name": "DustyportalspawnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyportalspawn_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustyportalspawn",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyportalspawn"
+    },
+    {
+      "name": "Aetherportalspawn",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherportalspawn"
+    },
+    {
+      "name": "AetherportalspawnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherportalspawn_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DustyaetherportalpawnOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyaetherportalpawn_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dustyaetherportalpawn",
+      "type": "block",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyaetherportalpawn"
+    },
+    {
+      "name": "Aetherportalruined",
+      "type": "structure",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aetherportalruined"
+    },
+    {
+      "name": "Dustyruinednetherportal",
+      "type": "structure",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyruinednetherportal"
+    },
+    {
+      "name": "Dustyaetherportal",
+      "type": "structure",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dustyaetherportal"
+    },
+    {
+      "name": "Glowingobsidian",
+      "type": "block",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowingobsidian"
+    },
+    {
+      "name": "GlowingobsidianUpdateTick",
+      "type": "procedure",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowingobsidian_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netherreactor",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherreactor"
+    },
+    {
+      "name": "NetherreactorBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherreactor_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netherreactorspawner",
+      "type": "block",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherreactorspawner"
+    },
+    {
+      "name": "NetherreactorspawnerOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherreactorspawner_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Enderiteore",
+      "type": "block",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiteore"
+    },
+    {
+      "name": "Enderiteshard",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enderiteshard"
+    },
+    {
+      "name": "Rubyblocktorubies",
+      "type": "recipe",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubyblocktorubies"
+    },
+    {
+      "name": "Sapphireblocktosap",
+      "type": "recipe",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphireblocktosap"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.aslongasyouhaveenoughrubies.descr": "find ruby ",
+      "block.kaczka.dustylog": "Dusty log",
+      "block.kaczka.rubyprismarine": "Ruby prismarine",
+      "item.kaczka.dustydimension": "obsidian and steel",
+      "biome.kaczka.dustywastelands": "Dusty wastelands",
+      "block.kaczka.dustydirt": "Dusty dirt",
+      "block.kaczka.dustyaetherportalpawn": "Dustyaetherportalpawn",
+      "item.kaczka.ruby": "Ruby",
+      "advancements.what.title": "What",
+      "advancements.what.descr": "mine nether diamond ore",
+      "block.kaczka.rubylantern": "Ruby lantern",
+      "block.kaczka.rubyflower": "Ruby flower",
+      "block.kaczka.jadeiteblock": " jadeite block",
+      "block.kaczka.dustyglowstone": "Dusty glowstone",
+      "item.kaczka.enderiteshard": "Enderite shard",
+      "block.kaczka.netherreactor": "Nether reactor",
+      "item.kaczka.dust": "Dust",
+      "item.kaczka.dustierdiemsion": "dusty water bucket",
+      "block.kaczka.goldenbrickstairs": "Golden brick stairs",
+      "biome.kaczka.sapphirecave": "sapphirecave",
+      "item.kaczka.deep_iron": "Deep Iron",
+      "block.kaczka.dustyslab": "Dusty slab",
+      "item.kaczka.deep_iron_blade": "Deep Iron Blade",
+      "biome.kaczka.emeraldcave": "sapphirecave",
+      "block.kaczka.rubyblock": " ruby block",
+      "block.kaczka.rubyprismarineslab": "Ruby prismarine slab",
+      "advancements.doneanddusted.title": "Done and dusted",
+      "block.kaczka.dustyportalspawn": "Dustyportalspawn",
+      "item.kaczka.rubyneckle_helmet": "Rubyneckle Helmet",
+      "item.kaczka.fireworks": "Fireworks",
+      "block.kaczka.cryingglowstone": "Crying glow stone",
+      "block.kaczka.rubyore": "Ruby ore",
+      "block.kaczka.dustycryingobsidian": "Dusty crying obsidian",
+      "block.kaczka.dustyrubyore": "Dusty ruby ore",
+      "block.kaczka.deepstone": "Deepstone",
+      "block.kaczka.dustyplanks": "Dusty planks",
+      "item.kaczka.cesiumampule": "Cesium ampule",
+      "advancements.aslongasyouhaveenoughrubies.title": "As long as you have enough rubies",
+      "block.kaczka.toretzan_ore": "Toretzan Ore",
+      "block.kaczka.dustynetherrack": "Dusty netherrack",
+      "advancements.tearsintherain.descr": "throw cesium ampule when its raining",
+      "block.kaczka.deep_shard_block": "Deep Shard Block",
+      "item.kaczka.depth": "Depth",
+      "item.kaczka.deep_shard": "Deep Shard",
+      "block.kaczka.dustystone": "Dusty stone",
+      "block.kaczka.dustyhousespawn": "Dustyhousespawn",
+      "item.kaczka.foravara": "Foravara",
+      "block.kaczka.foravara_ore": "Foravara Ore",
+      "block.kaczka.goldenbrickslab": "Golden brick slab",
+      "block.kaczka.dustysapling": "Dusty sapling",
+      "block.kaczka.deep_iron_block": "Deep Iron Block",
+      "biome.kaczka.rubycave": "Rubycave",
+      "item.kaczka.sapphire": "Sapphire",
+      "block.kaczka.goldenbricks": "Golden bricks",
+      "block.kaczka.dustystairs": "Dusty stairs",
+      "block.kaczka.dustycraftingtable": "Dusty crafting table",
+      "block.kaczka.dustycobblestone": "Dusty cobblestone",
+      "block.kaczka.sapphireblock": "sapphire block",
+      "item.kaczka.toretzan": "Toretzan",
+      "block.kaczka.dustyobsidian": "Dusty obsidian",
+      "advancements.backintime.title": "Back in time",
+      "block.kaczka.rubyprismarinestairs": "Ruby prismarine stairs",
+      "block.kaczka.enderiteore": "Enderite ore",
+      "item.kaczka.rubyneckle_chestplate": "Rubyneckle Body",
+      "block.kaczka.aetherportalspawn": "Aetherportalspawn",
+      "block.kaczka.dustygrass": "Dusty grass",
+      "block.kaczka.block_of_depth": "Block Of Depth",
+      "block.kaczka.dustyleaves": "Dusty leaves",
+      "block.kaczka.depth_extractor": "Depth Extractor",
+      "block.kaczka.the": "The",
+      "item.kaczka.rubyneckle_leggings": "Rubyneckle Leggings",
+      "block.kaczka.netherreactorspawner": "Netherreactorspawner",
+      "biome.kaczka.dustyplains": "Dusty plains",
+      "block.kaczka.rubycrystal": "Rubycrystal",
+      "advancements.doneanddusted.descr": "craft a dusted obsidian",
+      "block.kaczka.gildedclay": "Gilded clay",
+      "item.kaczka.gildedclaypiece": " gilded clay piece",
+      "block.kaczka.dustymoss": "Dusty moss",
+      "biome.kaczka.wastelands_2": "Wastelands2",
+      "item.kaczka.rubyneckle_boots": "Rubyneckle Boots",
+      "advancements.backintime.descr": "get back in time",
+      "biome.kaczka.dustywoods": "Dustywoods",
+      "block.kaczka.netherdiamondore": "Netherdiamondore",
+      "block.kaczka.sapphireore": "Sapphire ore",
+      "itemGroup.tabkaczka": "Kaczka",
+      "advancements.tearsintherain.title": "Tears in the rain",
+      "block.kaczka.glowingobsidian": "Glowingo bsidian",
+      "block.kaczka.jadeitegravelore": "Jadeite gravelore",
+      "block.kaczka.dustycryingglowstone": "dusty Crying glow stone"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kaczka",
+    "modName": "kaczka",
+    "version": "2.2.4.4",
+    "description": "kacz",
+    "author": "janik gry300",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.kaczka",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

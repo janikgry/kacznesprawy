@@ -1,0 +1,36 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "kaczka:ruby"
+    },
+    "title": {
+      "translate": "advancements.aslongasyouhaveenoughrubies.title"
+    },
+    "description": {
+      "translate": "advancements.aslongasyouhaveenoughrubies.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "aslongasyouhaveenoughrubies": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kaczka:ruby"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}

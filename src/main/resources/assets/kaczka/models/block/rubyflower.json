@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "kaczka:blocks/ruby_flower",
+    "particle": "kaczka:blocks/cinnabar_particle"
+  }
+}

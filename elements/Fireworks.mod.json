@@ -1,0 +1,40 @@
+{
+  "_fv": 34,
+  "_type": "rangeditem",
+  "definition": {
+    "renderType": 0,
+    "texture": "fireworks",
+    "customModelName": "Normal",
+    "name": "Fireworks",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Kaczka"
+    },
+    "stackSize": 32,
+    "ammoItem": {
+      "value": ""
+    },
+    "shootConstantly": false,
+    "usageCount": 27,
+    "actionSound": {
+      "value": "entity.firework.launch"
+    },
+    "hasGlow": false,
+    "animation": "spear",
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 1.0,
+    "bulletDamage": 0.0,
+    "bulletKnockback": 0,
+    "bulletParticles": false,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Fireworks"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "FireworksProjectileHitsBlock"
+    }
+  }
+}

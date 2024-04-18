@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/stone",
+    "up": "kaczka:blocks/stone",
+    "north": "kaczka:blocks/stone",
+    "east": "kaczka:blocks/stone",
+    "south": "kaczka:blocks/stone",
+    "west": "kaczka:blocks/stone",
+    "particle": "kaczka:blocks/stone"
+  }
+}

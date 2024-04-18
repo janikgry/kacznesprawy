@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kaczka:sapphire"
+    },
+    "1": {
+      "item": "kaczka:sapphire"
+    },
+    "2": {
+      "item": "kaczka:sapphire"
+    },
+    "3": {
+      "item": "kaczka:sapphire"
+    },
+    "4": {
+      "item": "kaczka:sapphire"
+    },
+    "5": {
+      "item": "kaczka:sapphire"
+    },
+    "6": {
+      "item": "kaczka:sapphire"
+    },
+    "7": {
+      "item": "kaczka:sapphire"
+    },
+    "8": {
+      "item": "kaczka:sapphire"
+    }
+  },
+  "result": {
+    "item": "kaczka:sapphireblock",
+    "count": 1
+  }
+}

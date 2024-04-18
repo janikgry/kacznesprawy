@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "kaczka:dustyplanks"
+    },
+    "4": {
+      "item": "kaczka:dustyplanks"
+    },
+    "5": {
+      "item": "kaczka:dustyplanks"
+    },
+    "6": {
+      "item": "kaczka:dustyplanks"
+    },
+    "7": {
+      "item": "kaczka:dustyplanks"
+    },
+    "8": {
+      "item": "kaczka:dustyplanks"
+    }
+  },
+  "result": {
+    "item": "kaczka:dustystairs",
+    "count": 4
+  }
+}

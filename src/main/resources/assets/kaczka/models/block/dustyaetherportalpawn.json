@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/aether_portal_block",
+    "up": "kaczka:blocks/aether_portal_block",
+    "north": "kaczka:blocks/placeholder",
+    "east": "kaczka:blocks/crying_glowstone",
+    "south": "kaczka:blocks/placeholder",
+    "west": "kaczka:blocks/crying_glowstone",
+    "particle": "kaczka:blocks/aether_portal_block"
+  }
+}

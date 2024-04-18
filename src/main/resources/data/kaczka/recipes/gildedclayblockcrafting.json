@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "kaczka:gildedclaypiece"
+    },
+    "1": {
+      "item": "kaczka:gildedclaypiece"
+    },
+    "2": {
+      "item": "kaczka:gildedclaypiece"
+    },
+    "3": {
+      "item": "kaczka:gildedclaypiece"
+    }
+  },
+  "result": {
+    "item": "kaczka:gildedclay",
+    "count": 1
+  }
+}

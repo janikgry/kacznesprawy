@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/dusty_netherrack",
+    "up": "kaczka:blocks/dusty_netherrack",
+    "north": "kaczka:blocks/dusty_netherrack",
+    "east": "kaczka:blocks/dusty_netherrack",
+    "south": "kaczka:blocks/dusty_netherrack",
+    "west": "kaczka:blocks/dusty_netherrack",
+    "particle": "kaczka:blocks/dusty_netherrack"
+  }
+}

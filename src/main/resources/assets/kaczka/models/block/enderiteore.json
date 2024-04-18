@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/enderite_ore",
+    "up": "kaczka:blocks/enderite_ore",
+    "north": "kaczka:blocks/enderite_ore",
+    "east": "kaczka:blocks/enderite_ore",
+    "south": "kaczka:blocks/enderite_ore",
+    "west": "kaczka:blocks/enderite_ore",
+    "particle": "kaczka:blocks/enderite_ore"
+  }
+}

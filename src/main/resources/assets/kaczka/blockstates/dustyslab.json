@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kaczka:block/dustyslab"
+    },
+    "type=top": {
+      "model": "kaczka:block/dustyslab_top"
+    },
+    "type=double": {
+      "model": "kaczka:block/dustyslab_full"
+    }
+  }
+}

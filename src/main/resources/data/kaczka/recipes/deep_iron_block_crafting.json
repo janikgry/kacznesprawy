@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kaczka:deep_iron"
+    },
+    "1": {
+      "item": "kaczka:deep_iron"
+    },
+    "2": {
+      "item": "kaczka:deep_iron"
+    },
+    "3": {
+      "item": "kaczka:deep_iron"
+    },
+    "4": {
+      "item": "kaczka:deep_iron"
+    },
+    "5": {
+      "item": "kaczka:deep_iron"
+    },
+    "6": {
+      "item": "kaczka:deep_iron"
+    },
+    "7": {
+      "item": "kaczka:deep_iron"
+    },
+    "8": {
+      "item": "kaczka:deep_iron"
+    }
+  },
+  "result": {
+    "item": "kaczka:deep_iron_block",
+    "count": 1
+  }
+}

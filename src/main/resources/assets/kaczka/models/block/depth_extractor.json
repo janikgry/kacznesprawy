@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/depth_ext_bottom",
+    "up": "kaczka:blocks/depth_ext_top",
+    "north": "kaczka:blocks/depth_ext_side",
+    "east": "kaczka:blocks/depth_ext_side",
+    "south": "kaczka:blocks/depth_ext_side",
+    "west": "kaczka:blocks/depth_ext_side",
+    "particle": "kaczka:blocks/depth_ext_bottom"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kaczka:sapphireblock"
+    }
+  ],
+  "result": {
+    "item": "kaczka:sapphire",
+    "count": 9
+  }
+}

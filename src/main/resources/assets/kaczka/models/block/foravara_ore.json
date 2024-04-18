@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/foravara_ore",
+    "up": "kaczka:blocks/foravara_ore",
+    "north": "kaczka:blocks/foravara_ore",
+    "east": "kaczka:blocks/foravara_ore",
+    "south": "kaczka:blocks/foravara_ore",
+    "west": "kaczka:blocks/foravara_ore",
+    "particle": "kaczka:blocks/foravara_ore"
+  }
+}

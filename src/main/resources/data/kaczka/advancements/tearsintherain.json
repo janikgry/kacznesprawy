@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "kaczka:cesiumampule"
+    },
+    "title": {
+      "translate": "advancements.tearsintherain.title"
+    },
+    "description": {
+      "translate": "advancements.tearsintherain.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tearsintherain": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

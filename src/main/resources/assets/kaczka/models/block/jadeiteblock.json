@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/jadeite_block",
+    "up": "kaczka:blocks/jadeite_block",
+    "north": "kaczka:blocks/jadeite_block",
+    "east": "kaczka:blocks/jadeite_block",
+    "south": "kaczka:blocks/jadeite_block",
+    "west": "kaczka:blocks/jadeite_block",
+    "particle": "kaczka:blocks/jadeite_block"
+  }
+}

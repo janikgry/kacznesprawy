@@ -1,0 +1,49 @@
+{
+  "_fv": 34,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Wastelands2"
+      },
+      {
+        "value": "CUSTOM:Dustywastelands"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:Dustycobblestone"
+    },
+    "fluidBlock": {
+      "value": "Blocks.AIR"
+    },
+    "airColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "CUSTOM:Dustyglowstone"
+    },
+    "portalParticles": {
+      "value": "UNDERWATER"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "dusty water bucket",
+    "igniterTab": {
+      "value": "CUSTOM:Kaczka"
+    },
+    "texture": "dusty_bucket",
+    "portalTexture": "aetheranim",
+    "enablePortal": true
+  }
+}

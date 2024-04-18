@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kaczka:block_of_depth"
+    }
+  ],
+  "result": {
+    "item": "kaczka:depth",
+    "count": 4
+  }
+}

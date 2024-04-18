@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:firework_rocket"
+    },
+    "1": {
+      "item": "minecraft:string"
+    },
+    "2": {
+      "item": "minecraft:firework_rocket"
+    },
+    "3": {
+      "item": "minecraft:firework_rocket"
+    },
+    "4": {
+      "item": "minecraft:firework_rocket"
+    },
+    "5": {
+      "item": "minecraft:firework_rocket"
+    },
+    "6": {
+      "item": "minecraft:firework_rocket"
+    },
+    "7": {
+      "item": "minecraft:firework_rocket"
+    },
+    "8": {
+      "item": "minecraft:firework_rocket"
+    }
+  },
+  "result": {
+    "item": "kaczka:fireworks",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/dusty_ruby_ore",
+    "up": "kaczka:blocks/dusty_ruby_ore",
+    "north": "kaczka:blocks/dusty_ruby_ore",
+    "east": "kaczka:blocks/dusty_ruby_ore",
+    "south": "kaczka:blocks/dusty_ruby_ore",
+    "west": "kaczka:blocks/dusty_ruby_ore",
+    "particle": "kaczka:blocks/dusty_ruby_ore"
+  }
+}

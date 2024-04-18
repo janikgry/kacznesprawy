@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "kaczka:block/rubyprismarineslab"
+    },
+    "type=top": {
+      "model": "kaczka:block/rubyprismarineslab_top"
+    },
+    "type=double": {
+      "model": "kaczka:block/rubyprismarineslab_full"
+    }
+  }
+}

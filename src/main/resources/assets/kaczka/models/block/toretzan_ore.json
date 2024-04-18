@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/toretzan_ore",
+    "up": "kaczka:blocks/toretzan_ore",
+    "north": "kaczka:blocks/toretzan_ore",
+    "east": "kaczka:blocks/toretzan_ore",
+    "south": "kaczka:blocks/toretzan_ore",
+    "west": "kaczka:blocks/toretzan_ore",
+    "particle": "kaczka:blocks/toretzan_ore"
+  }
+}

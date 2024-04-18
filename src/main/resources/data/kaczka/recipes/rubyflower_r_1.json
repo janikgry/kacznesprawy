@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kaczka:rubyflower"
+    },
+    {
+      "item": "kaczka:rubyflower"
+    },
+    {
+      "item": "kaczka:rubyflower"
+    },
+    {
+      "item": "kaczka:rubyflower"
+    },
+    {
+      "item": "kaczka:rubyflower"
+    },
+    {
+      "item": "kaczka:rubyflower"
+    }
+  ],
+  "result": {
+    "item": "kaczka:ruby",
+    "count": 1
+  }
+}

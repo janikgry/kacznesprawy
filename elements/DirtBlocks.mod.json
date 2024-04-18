@@ -1,0 +1,27 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Dustydirt"
+      },
+      {
+        "value": "CUSTOM:Dustygrass"
+      },
+      {
+        "value": "CUSTOM:Dustycobblestone"
+      },
+      {
+        "value": "CUSTOM:Dustymoss"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "dirt",
+    "namespace": "minecraft"
+  }
+}

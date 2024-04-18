@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 45",
+    "678"
+  ],
+  "key": {
+    "2": {
+      "item": "kaczka:goldenbricks"
+    },
+    "4": {
+      "item": "kaczka:goldenbricks"
+    },
+    "5": {
+      "item": "kaczka:goldenbricks"
+    },
+    "6": {
+      "item": "kaczka:goldenbricks"
+    },
+    "7": {
+      "item": "kaczka:goldenbricks"
+    },
+    "8": {
+      "item": "kaczka:goldenbricks"
+    }
+  },
+  "result": {
+    "item": "kaczka:goldenbrickstairs",
+    "count": 4
+  }
+}

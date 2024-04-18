@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kaczka:deep_shard"
+    },
+    "1": {
+      "item": "kaczka:deep_shard"
+    },
+    "2": {
+      "item": "kaczka:deep_shard"
+    },
+    "3": {
+      "item": "kaczka:deep_shard"
+    },
+    "4": {
+      "item": "kaczka:deep_shard"
+    },
+    "5": {
+      "item": "kaczka:deep_shard"
+    },
+    "6": {
+      "item": "kaczka:deep_shard"
+    },
+    "7": {
+      "item": "kaczka:deep_shard"
+    },
+    "8": {
+      "item": "kaczka:deep_shard"
+    }
+  },
+  "result": {
+    "item": "kaczka:deep_shard_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "kaczka:blocks/golden_bricks",
+    "top": "kaczka:blocks/golden_bricks",
+    "side": "kaczka:blocks/golden_bricks"
+  }
+}

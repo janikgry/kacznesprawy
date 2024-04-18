@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/deepstone",
+    "up": "kaczka:blocks/deepstone",
+    "north": "kaczka:blocks/deepstone",
+    "east": "kaczka:blocks/deepstone",
+    "south": "kaczka:blocks/deepstone",
+    "west": "kaczka:blocks/deepstone",
+    "particle": "kaczka:blocks/deepstone"
+  }
+}

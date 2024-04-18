@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "kaczka:dustygrass"
+    },
+    "title": {
+      "translate": "advancements.backintime.title"
+    },
+    "description": {
+      "translate": "advancements.backintime.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "backintime": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "kaczka:dustydimension"
+      }
+    }
+  },
+  "parent": "kaczka:doneanddusted"
+}

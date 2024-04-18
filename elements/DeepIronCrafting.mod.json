@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DeepShard"
+      },
+      {
+        "value": "CUSTOM:DeepShard"
+      },
+      {
+        "value": "CUSTOM:DeepShard"
+      },
+      {
+        "value": "CUSTOM:DeepShard"
+      },
+      {
+        "value": "CUSTOM:DeepShard"
+      },
+      {
+        "value": "CUSTOM:DeepShard"
+      },
+      {
+        "value": "CUSTOM:DeepShard"
+      },
+      {
+        "value": "CUSTOM:DeepShard"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DeepIron"
+    },
+    "name": "deep_iron_crafting",
+    "namespace": "mod"
+  }
+}
