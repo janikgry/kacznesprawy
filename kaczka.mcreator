@@ -1978,6 +1978,70 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sapphireblocktosap"
+    },
+    {
+      "name": "Prelude",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude"
+    },
+    {
+      "name": "PreludeSwitchState",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude_switch_state",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PreludeBlueMob",
+      "type": "tag",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude_blue_mob"
+    },
+    {
+      "name": "PreludeBlue",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude_blue"
+    },
+    {
+      "name": "PreludeBlueSwitchState",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prelude_blue_switch_state",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2017,8 +2081,10 @@
       "block.kaczka.cryingglowstone": "Crying glow stone",
       "block.kaczka.rubyore": "Ruby ore",
       "block.kaczka.dustycryingobsidian": "Dusty crying obsidian",
+      "item.kaczka.prelude_blue": "Prelude Blue",
       "block.kaczka.dustyrubyore": "Dusty ruby ore",
       "block.kaczka.deepstone": "Deepstone",
+      "item.kaczka.prelude": "Prelude",
       "block.kaczka.dustyplanks": "Dusty planks",
       "item.kaczka.cesiumampule": "Cesium ampule",
       "advancements.aslongasyouhaveenoughrubies.title": "As long as you have enough rubies",

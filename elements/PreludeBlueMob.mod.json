@@ -1,0 +1,30 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityIllusionIllager"
+      },
+      {
+        "value": "EntityGlowSquid"
+      },
+      {
+        "value": "EntityDrowned"
+      },
+      {
+        "value": "EntityWarden"
+      },
+      {
+        "value": "EntityAllay"
+      }
+    ],
+    "biomes": [],
+    "name": "prelude_blue_mob",
+    "namespace": "forge"
+  }
+}

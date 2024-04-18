@@ -17,6 +17,8 @@ import net.mcreator.kaczka.item.ToretzanItem;
 import net.mcreator.kaczka.item.SapphireItem;
 import net.mcreator.kaczka.item.RubyneckleItem;
 import net.mcreator.kaczka.item.RubyItem;
+import net.mcreator.kaczka.item.PreludeItem;
+import net.mcreator.kaczka.item.PreludeBlueItem;
 import net.mcreator.kaczka.item.GildedclaypieceItem;
 import net.mcreator.kaczka.item.ForavaraItem;
 import net.mcreator.kaczka.item.FireworksItem;
@@ -102,6 +104,8 @@ public class KaczkaModItems {
 	public static final RegistryObject<Item> NETHERREACTORSPAWNER = block(KaczkaModBlocks.NETHERREACTORSPAWNER, KaczkaModTabs.TAB_KACZKA);
 	public static final RegistryObject<Item> ENDERITEORE = block(KaczkaModBlocks.ENDERITEORE, KaczkaModTabs.TAB_KACZKA);
 	public static final RegistryObject<Item> ENDERITESHARD = REGISTRY.register("enderiteshard", () -> new EnderiteshardItem());
+	public static final RegistryObject<Item> PRELUDE = REGISTRY.register("prelude", () -> new PreludeItem());
+	public static final RegistryObject<Item> PRELUDE_BLUE = REGISTRY.register("prelude_blue", () -> new PreludeBlueItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
