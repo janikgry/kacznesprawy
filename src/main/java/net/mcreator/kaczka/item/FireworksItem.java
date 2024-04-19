@@ -18,7 +18,7 @@ import net.mcreator.kaczka.entity.FireworksEntity;
 
 public class FireworksItem extends Item {
 	public FireworksItem() {
-		super(new Item.Properties().tab(KaczkaModTabs.TAB_KACZKA).durability(27));
+		super(new Item.Properties().tab(KaczkaModTabs.TAB_FARMAZONY).durability(27));
 	}
 
 	@Override

@@ -35,16 +35,16 @@ import net.mcreator.kaczka.KaczkaMod;
 
 public class KaczkaModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, KaczkaMod.MODID);
-	public static final RegistryObject<Item> GILDEDCLAY = block(KaczkaModBlocks.GILDEDCLAY, KaczkaModTabs.TAB_KACZKA);
+	public static final RegistryObject<Item> GILDEDCLAY = block(KaczkaModBlocks.GILDEDCLAY, KaczkaModTabs.TAB_FARMAZONY);
 	public static final RegistryObject<Item> GILDEDCLAYPIECE = REGISTRY.register("gildedclaypiece", () -> new GildedclaypieceItem());
-	public static final RegistryObject<Item> GOLDENBRICKS = block(KaczkaModBlocks.GOLDENBRICKS, KaczkaModTabs.TAB_KACZKA);
-	public static final RegistryObject<Item> NETHERDIAMONDORE = block(KaczkaModBlocks.NETHERDIAMONDORE, KaczkaModTabs.TAB_KACZKA);
+	public static final RegistryObject<Item> GOLDENBRICKS = block(KaczkaModBlocks.GOLDENBRICKS, KaczkaModTabs.TAB_FARMAZONY);
+	public static final RegistryObject<Item> NETHERDIAMONDORE = block(KaczkaModBlocks.NETHERDIAMONDORE, KaczkaModTabs.TAB_FARMAZONY);
 	public static final RegistryObject<Item> FIREWORKS = REGISTRY.register("fireworks", () -> new FireworksItem());
 	public static final RegistryObject<Item> RUBY = REGISTRY.register("ruby", () -> new RubyItem());
-	public static final RegistryObject<Item> RUBYORE = block(KaczkaModBlocks.RUBYORE, KaczkaModTabs.TAB_KACZKA);
-	public static final RegistryObject<Item> RUBYPRISMARINE = block(KaczkaModBlocks.RUBYPRISMARINE, KaczkaModTabs.TAB_KACZKA);
-	public static final RegistryObject<Item> RUBYBLOCK = block(KaczkaModBlocks.RUBYBLOCK, KaczkaModTabs.TAB_KACZKA);
-	public static final RegistryObject<Item> RUBYPRISMARINESTAIRS = block(KaczkaModBlocks.RUBYPRISMARINESTAIRS, KaczkaModTabs.TAB_KACZKA);
+	public static final RegistryObject<Item> RUBYORE = block(KaczkaModBlocks.RUBYORE, KaczkaModTabs.TAB_FARMAZONY);
+	public static final RegistryObject<Item> RUBYPRISMARINE = block(KaczkaModBlocks.RUBYPRISMARINE, KaczkaModTabs.TAB_FARMAZONY);
+	public static final RegistryObject<Item> RUBYBLOCK = block(KaczkaModBlocks.RUBYBLOCK, KaczkaModTabs.TAB_FARMAZONY);
+	public static final RegistryObject<Item> RUBYPRISMARINESTAIRS = block(KaczkaModBlocks.RUBYPRISMARINESTAIRS, KaczkaModTabs.TAB_FARMAZONY);
 	public static final RegistryObject<Item> RUBYPRISMARINESLAB = block(KaczkaModBlocks.RUBYPRISMARINESLAB, KaczkaModTabs.TAB_KACZKA);
 	public static final RegistryObject<Item> GOLDENBRICKSTAIRS = block(KaczkaModBlocks.GOLDENBRICKSTAIRS, KaczkaModTabs.TAB_KACZKA);
 	public static final RegistryObject<Item> GOLDENBRICKSLAB = block(KaczkaModBlocks.GOLDENBRICKSLAB, KaczkaModTabs.TAB_KACZKA);

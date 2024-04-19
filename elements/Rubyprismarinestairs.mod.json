@@ -41,7 +41,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:Farmazony"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

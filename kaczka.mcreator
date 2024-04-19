@@ -2042,6 +2042,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "Farmazony",
+      "type": "tab",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "farmazony"
     }
   ],
   "variable_elements": [],
@@ -2054,6 +2062,7 @@
       "item.kaczka.dustydimension": "obsidian and steel",
       "biome.kaczka.dustywastelands": "Dusty wastelands",
       "block.kaczka.dustydirt": "Dusty dirt",
+      "itemGroup.tabfarmazony": "Farmazony",
       "block.kaczka.dustyaetherportalpawn": "Dustyaetherportalpawn",
       "item.kaczka.ruby": "Ruby",
       "advancements.what.title": "What",

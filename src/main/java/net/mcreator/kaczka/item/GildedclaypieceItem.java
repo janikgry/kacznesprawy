@@ -8,6 +8,6 @@ import net.mcreator.kaczka.init.KaczkaModTabs;
 
 public class GildedclaypieceItem extends Item {
 	public GildedclaypieceItem() {
-		super(new Item.Properties().tab(KaczkaModTabs.TAB_KACZKA).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(KaczkaModTabs.TAB_FARMAZONY).stacksTo(64).rarity(Rarity.COMMON));
 	}
 }
