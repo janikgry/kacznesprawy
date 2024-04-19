@@ -1,0 +1,122 @@
+{
+  "_fv": 34,
+  "_type": "biome",
+  "definition": {
+    "name": "Rubycave",
+    "groundBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -16724941,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16724941,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6684775,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16724941,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:Jadeiteparticle"
+    },
+    "particlesProbability": 2.5,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "spawnBiomeNether": false,
+    "spawnInCaves": true,
+    "biomeWeight": 6,
+    "grassPerChunk": 4,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 0,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 0,
+    "treeStem": {
+      "value": "Blocks.MAGMA"
+    },
+    "treeBranch": {
+      "value": "Blocks.IRON_BLOCK"
+    },
+    "treeVines": {
+      "value": ""
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityHusk"
+        },
+        "minGroup": 4,
+        "maxGroup": 7,
+        "weight": 22,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}

@@ -14,7 +14,7 @@ import net.mcreator.kaczka.block.DustydimensionPortalBlock;
 
 public class DustydimensionItem extends Item {
 	public DustydimensionItem() {
-		super(new Item.Properties().tab(KaczkaModTabs.TAB_KACZKA).durability(64));
+		super(new Item.Properties().tab(KaczkaModTabs.TAB_DUSTY).durability(64));
 	}
 
 	@Override

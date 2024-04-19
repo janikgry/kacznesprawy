@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345"
+  ],
+  "key": {
+    "1": {
+      "item": "kaczka:jadeitegem"
+    },
+    "3": {
+      "item": "kaczka:jadeitegem"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "kaczka:jadeitegem"
+    }
+  },
+  "result": {
+    "item": "kaczka:jadeitechisel",
+    "count": 1
+  }
+}

@@ -18,7 +18,7 @@ import net.mcreator.kaczka.procedures.NetherreactorBlockDestroyedByPlayerProcedu
 
 public class NetherreactorBlock extends Block {
 	public NetherreactorBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(40f, 500f).lightLevel(s -> 15).noDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(40f, 10f).lightLevel(s -> 15).noDrops());
 	}
 
 	@Override

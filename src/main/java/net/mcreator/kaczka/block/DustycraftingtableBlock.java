@@ -31,7 +31,7 @@ import io.netty.buffer.Unpooled;
 
 public class DustycraftingtableBlock extends Block {
 	public DustycraftingtableBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WET_GRASS).strength(0.5f).noDrops());
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.SAND).strength(0.5f).noDrops());
 	}
 
 	@Override

@@ -40,7 +40,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:Dusty"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -79,7 +79,7 @@
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WET_GRASS"
+      "value": "SAND"
     },
     "breakSound": {
       "value": ""

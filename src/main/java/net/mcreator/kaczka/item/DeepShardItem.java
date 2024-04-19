@@ -15,7 +15,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class DeepShardItem extends Item {
 	public DeepShardItem() {
-		super(new Item.Properties().tab(KaczkaModTabs.TAB_KACZKA).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(KaczkaModTabs.TAB_ORESWIRAZ).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

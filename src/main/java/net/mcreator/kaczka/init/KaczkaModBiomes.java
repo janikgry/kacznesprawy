@@ -32,6 +32,7 @@ import net.minecraft.core.Holder;
 import net.mcreator.kaczka.world.biome.Wastelands2Biome;
 import net.mcreator.kaczka.world.biome.SapphirecaveBiome;
 import net.mcreator.kaczka.world.biome.RubycaveBiome;
+import net.mcreator.kaczka.world.biome.JadeitecaveBiome;
 import net.mcreator.kaczka.world.biome.EmeraldcaveBiome;
 import net.mcreator.kaczka.world.biome.DustywoodsBiome;
 import net.mcreator.kaczka.world.biome.DustywastelandsBiome;
@@ -54,6 +55,7 @@ public class KaczkaModBiomes {
 	public static final RegistryObject<Biome> WASTELANDS_2 = REGISTRY.register("wastelands_2", () -> Wastelands2Biome.createBiome());
 	public static final RegistryObject<Biome> SAPPHIRECAVE = REGISTRY.register("sapphirecave", () -> SapphirecaveBiome.createBiome());
 	public static final RegistryObject<Biome> EMERALDCAVE = REGISTRY.register("emeraldcave", () -> EmeraldcaveBiome.createBiome());
+	public static final RegistryObject<Biome> JADEITECAVE = REGISTRY.register("jadeitecave", () -> JadeitecaveBiome.createBiome());
 
 	@SubscribeEvent
 	public static void onServerAboutToStart(ServerAboutToStartEvent event) {
@@ -74,6 +76,8 @@ public class KaczkaModBiomes {
 							biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, SAPPHIRECAVE.getId()))));
 					parameters.add(new Pair<>(EmeraldcaveBiome.PARAMETER_POINT_UNDERGROUND,
 							biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, EMERALDCAVE.getId()))));
+					parameters.add(new Pair<>(JadeitecaveBiome.PARAMETER_POINT_UNDERGROUND,
+							biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, JADEITECAVE.getId()))));
 
 					MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters), noiseSource.preset);
 					chunkGenerator.biomeSource = moddedNoiseSource;
@@ -90,6 +94,8 @@ public class KaczkaModBiomes {
 						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, SAPPHIRECAVE.getId()),
 								Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState()));
 						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, EMERALDCAVE.getId()),
+								Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState()));
+						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, JADEITECAVE.getId()),
 								Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState(), Blocks.STONE.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 								noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(), noiseGeneratorSettings.noiseRouter(),

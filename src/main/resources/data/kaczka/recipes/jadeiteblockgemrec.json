@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kaczka:jadeitegem"
+    },
+    "1": {
+      "item": "kaczka:jadeitegem"
+    },
+    "2": {
+      "item": "kaczka:jadeitegem"
+    },
+    "3": {
+      "item": "kaczka:jadeitegem"
+    },
+    "4": {
+      "item": "kaczka:jadeitegem"
+    },
+    "5": {
+      "item": "kaczka:jadeitegem"
+    },
+    "6": {
+      "item": "kaczka:jadeitegem"
+    },
+    "7": {
+      "item": "kaczka:jadeitegem"
+    },
+    "8": {
+      "item": "kaczka:jadeitegem"
+    }
+  },
+  "result": {
+    "item": "kaczka:jadeitegemblock",
+    "count": 1
+  }
+}

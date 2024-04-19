@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.kaczka.block.TsavoriteBlock;
 import net.mcreator.kaczka.block.ToretzanOreBlock;
 import net.mcreator.kaczka.block.TheBlock;
 import net.mcreator.kaczka.block.SapphireoreBlock;
@@ -30,6 +31,8 @@ import net.mcreator.kaczka.block.NetherreactorspawnerBlock;
 import net.mcreator.kaczka.block.NetherreactorBlock;
 import net.mcreator.kaczka.block.NetherdiamondoreBlock;
 import net.mcreator.kaczka.block.JadeitegraveloreBlock;
+import net.mcreator.kaczka.block.JadeitegemoreBlock;
+import net.mcreator.kaczka.block.JadeitegemblockBlock;
 import net.mcreator.kaczka.block.JadeiteblockBlock;
 import net.mcreator.kaczka.block.GoldenbrickstairsBlock;
 import net.mcreator.kaczka.block.GoldenbrickslabBlock;
@@ -129,6 +132,9 @@ public class KaczkaModBlocks {
 	public static final RegistryObject<Block> NETHERREACTOR = REGISTRY.register("netherreactor", () -> new NetherreactorBlock());
 	public static final RegistryObject<Block> NETHERREACTORSPAWNER = REGISTRY.register("netherreactorspawner", () -> new NetherreactorspawnerBlock());
 	public static final RegistryObject<Block> ENDERITEORE = REGISTRY.register("enderiteore", () -> new EnderiteoreBlock());
+	public static final RegistryObject<Block> TSAVORITE = REGISTRY.register("tsavorite", () -> new TsavoriteBlock());
+	public static final RegistryObject<Block> JADEITEGEMBLOCK = REGISTRY.register("jadeitegemblock", () -> new JadeitegemblockBlock());
+	public static final RegistryObject<Block> JADEITEGEMORE = REGISTRY.register("jadeitegemore", () -> new JadeitegemoreBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

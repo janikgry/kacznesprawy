@@ -33,16 +33,16 @@
         "subtract": false
       }
     ],
-    "name": "Nether reactor",
+    "name": "Nether reactor core",
     "specialInfo": [],
     "hardness": 40.0,
-    "resistance": 500.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:Dusty"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "customDrop": {
       "value": ""
     },

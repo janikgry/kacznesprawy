@@ -8,6 +8,6 @@ import net.mcreator.kaczka.init.KaczkaModTabs;
 
 public class DustItem extends Item {
 	public DustItem() {
-		super(new Item.Properties().tab(KaczkaModTabs.TAB_KACZKA).stacksTo(64).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(KaczkaModTabs.TAB_DUSTY).stacksTo(64).rarity(Rarity.EPIC));
 	}
 }

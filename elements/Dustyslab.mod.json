@@ -34,14 +34,14 @@
         "subtract": false
       }
     ],
-    "name": "Dusty slab",
+    "name": "Dusty wooden slab",
     "specialInfo": [],
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:Dusty"
     },
     "destroyTool": "Not specified",
     "customDrop": {

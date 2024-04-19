@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "dusty Crying glow stone",
+    "name": "Dusty crying glowstone",
     "specialInfo": [],
     "hardness": 0.3,
     "resistance": 0.3,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:Dusty"
     },
     "destroyTool": "Not specified",
     "customDrop": {

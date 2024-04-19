@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Glowingo bsidian",
+    "name": "Glowing obsidian",
     "specialInfo": [],
     "hardness": 20.0,
     "resistance": 400.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:Dusty"
     },
     "destroyTool": "Not specified",
     "customDrop": {

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "kaczka:blocks/placeholder",
-    "up": "kaczka:blocks/placeholder",
+    "down": "kaczka:blocks/dusty_log",
+    "up": "kaczka:blocks/dusty_log_top",
     "north": "kaczka:blocks/placeholder",
-    "east": "kaczka:blocks/placeholder",
+    "east": "kaczka:blocks/dusty_planks",
     "south": "kaczka:blocks/placeholder",
-    "west": "kaczka:blocks/placeholder",
-    "particle": "kaczka:blocks/placeholder"
+    "west": "kaczka:blocks/crafting_table_top",
+    "particle": "kaczka:blocks/dusty_log"
   }
 }

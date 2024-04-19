@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "kaczka:items/jadeite_block_umi_fix"
+  }
+}

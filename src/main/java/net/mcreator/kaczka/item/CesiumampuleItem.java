@@ -23,7 +23,7 @@ import java.util.List;
 
 public class CesiumampuleItem extends Item {
 	public CesiumampuleItem() {
-		super(new Item.Properties().tab(KaczkaModTabs.TAB_KACZKA).durability(1));
+		super(new Item.Properties().tab(KaczkaModTabs.TAB_CHEMIAKRAFT).durability(1));
 	}
 
 	@Override

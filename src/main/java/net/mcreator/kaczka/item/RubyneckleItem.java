@@ -71,7 +71,7 @@ public abstract class RubyneckleItem extends ArmorItem {
 
 	public static class Chestplate extends RubyneckleItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(KaczkaModTabs.TAB_KACZKA).fireResistant());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(KaczkaModTabs.TAB_FARMAZONY).fireResistant());
 		}
 
 		@Override

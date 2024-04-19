@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Netherreactorspawner",
+    "name": "Nether reactor spawner",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:Structures"
     },
     "destroyTool": "Not specified",
     "customDrop": {

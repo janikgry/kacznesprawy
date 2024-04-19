@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kaczka:blocks/end_green_crystal",
+    "up": "kaczka:blocks/end_green_crystal",
+    "north": "kaczka:blocks/end_green_crystal",
+    "east": "kaczka:blocks/end_green_crystal",
+    "south": "kaczka:blocks/end_green_crystal",
+    "west": "kaczka:blocks/end_green_crystal",
+    "particle": "kaczka:blocks/end_green_crystal"
+  }
+}

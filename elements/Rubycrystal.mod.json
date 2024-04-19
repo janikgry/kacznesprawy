@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Rubycrystal",
+    "name": "Ruby crystal",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 4.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:Farmazony"
     },
     "destroyTool": "pickaxe",
     "customDrop": {

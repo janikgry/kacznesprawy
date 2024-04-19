@@ -33,14 +33,14 @@
         "subtract": false
       }
     ],
-    "name": "Dusty grass",
+    "name": "Dusty grass block",
     "specialInfo": [],
     "hardness": 0.5,
     "resistance": 0.5,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Kaczka"
+      "value": "CUSTOM:Dusty"
     },
     "destroyTool": "Not specified",
     "customDrop": {
