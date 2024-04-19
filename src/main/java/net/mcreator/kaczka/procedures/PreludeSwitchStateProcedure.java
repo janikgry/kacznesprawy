@@ -17,14 +17,14 @@ public class PreludeSwitchStateProcedure {
 			return;
 		if (entity.getType().is(TagKey.create(Registry.ENTITY_TYPE_REGISTRY, new ResourceLocation("forge:prelude_blue_mob")))) {
 			if (sourceentity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(KaczkaModItems.PRELUDE_BLUE.get());
-				_setstack.setCount(1);
-				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
-			}
-			if (sourceentity instanceof Player _player) {
 				ItemStack _stktoremove = new ItemStack(KaczkaModItems.PRELUDE.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
 						_player.inventoryMenu.getCraftSlots());
+			}
+			if (sourceentity instanceof Player _player) {
+				ItemStack _setstack = new ItemStack(KaczkaModItems.PRELUDE_BLUE.get());
+				_setstack.setCount(1);
+				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}
 		}
 	}
