@@ -29,6 +29,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.kaczka.init.KaczkaModTabs;
 import net.mcreator.kaczka.init.KaczkaModParticleTypes;
 import net.mcreator.kaczka.init.KaczkaModItems;
+import net.mcreator.kaczka.init.KaczkaModFluids;
 import net.mcreator.kaczka.init.KaczkaModFeatures;
 import net.mcreator.kaczka.init.KaczkaModEntities;
 import net.mcreator.kaczka.init.KaczkaModBlocks;
@@ -55,6 +56,7 @@ public class KaczkaMod {
 		KaczkaModEntities.REGISTRY.register(bus);
 
 		KaczkaModFeatures.REGISTRY.register(bus);
+		KaczkaModFluids.REGISTRY.register(bus);
 
 		KaczkaModBiomes.REGISTRY.register(bus);
 		KaczkaModParticleTypes.REGISTRY.register(bus);

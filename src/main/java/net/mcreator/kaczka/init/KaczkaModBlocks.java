@@ -27,6 +27,7 @@ import net.mcreator.kaczka.block.RubylanternBlock;
 import net.mcreator.kaczka.block.RubyflowerBlock;
 import net.mcreator.kaczka.block.RubycrystalBlock;
 import net.mcreator.kaczka.block.RubyblockBlock;
+import net.mcreator.kaczka.block.NitrogenBlock;
 import net.mcreator.kaczka.block.NetherreactorspawnerBlock;
 import net.mcreator.kaczka.block.NetherreactorBlock;
 import net.mcreator.kaczka.block.NetherdiamondoreBlock;
@@ -135,6 +136,7 @@ public class KaczkaModBlocks {
 	public static final RegistryObject<Block> TSAVORITE = REGISTRY.register("tsavorite", () -> new TsavoriteBlock());
 	public static final RegistryObject<Block> JADEITEGEMBLOCK = REGISTRY.register("jadeitegemblock", () -> new JadeitegemblockBlock());
 	public static final RegistryObject<Block> JADEITEGEMORE = REGISTRY.register("jadeitegemore", () -> new JadeitegemoreBlock());
+	public static final RegistryObject<Block> NITROGEN = REGISTRY.register("nitrogen", () -> new NitrogenBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

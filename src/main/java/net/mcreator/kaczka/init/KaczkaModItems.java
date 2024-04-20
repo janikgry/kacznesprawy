@@ -21,6 +21,7 @@ import net.mcreator.kaczka.item.RubyItem;
 import net.mcreator.kaczka.item.PreludeItem;
 import net.mcreator.kaczka.item.PreludeBlueItem;
 import net.mcreator.kaczka.item.PowertokenItem;
+import net.mcreator.kaczka.item.NitrogenItem;
 import net.mcreator.kaczka.item.JadeitegemItem;
 import net.mcreator.kaczka.item.JadeitechiselItem;
 import net.mcreator.kaczka.item.GildedclaypieceItem;
@@ -117,6 +118,7 @@ public class KaczkaModItems {
 	public static final RegistryObject<Item> JADEITEGEMORE = block(KaczkaModBlocks.JADEITEGEMORE, KaczkaModTabs.TAB_FARMAZONY);
 	public static final RegistryObject<Item> VOID_MESSENGER = REGISTRY.register("void_messenger", () -> new VoidMessengerItem());
 	public static final RegistryObject<Item> POWERTOKEN = REGISTRY.register("powertoken", () -> new PowertokenItem());
+	public static final RegistryObject<Item> NITROGEN_BUCKET = REGISTRY.register("nitrogen_bucket", () -> new NitrogenItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

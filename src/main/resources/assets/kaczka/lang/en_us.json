@@ -2,8 +2,8 @@
   "advancements.aslongasyouhaveenoughrubies.descr": "find ruby ",
   "block.kaczka.rubyprismarine": "Ruby prismarine",
   "item.kaczka.dustydimension": "obsidian and steel",
-  "itemGroup.tabfarmazony": "Farmazony",
   "block.kaczka.dustydirt": "Dusty dirt",
+  "itemGroup.tabfarmazony": "Farmazony",
   "block.kaczka.dustyaetherportalpawn": "Dustyaetherportalpawn",
   "item.kaczka.ruby": "Ruby",
   "advancements.what.descr": "mine nether diamond ore",
@@ -45,6 +45,7 @@
   "block.kaczka.depth_extractor": "Depth Extractor",
   "block.kaczka.the": "The",
   "block.kaczka.jadeitegemore": "jadeite gem ore",
+  "fluid.kaczka.nitrogen": "Nitrogen",
   "block.kaczka.netherreactorspawner": "Nether reactor spawner",
   "biome.kaczka.dustyplains": "Dusty plains",
   "block.kaczka.gildedclay": "Gilded clay",
@@ -102,5 +103,7 @@
   "block.kaczka.dustymoss": "Dusty moss",
   "item.kaczka.rubyneckle_boots": "Rubyneckle Boots",
   "block.kaczka.netherdiamondore": "Netherdiamondore",
-  "block.kaczka.dustycryingglowstone": "Dusty crying glowstone"
+  "item.kaczka.nitrogen_bucket": "Nitrogen Bucket",
+  "block.kaczka.dustycryingglowstone": "Dusty crying glowstone",
+  "block.kaczka.nitrogen": "Nitrogen"
 }

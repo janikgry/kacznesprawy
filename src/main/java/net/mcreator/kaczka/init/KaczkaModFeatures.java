@@ -19,6 +19,7 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.kaczka.world.features.plants.RubyflowerFeature;
 import net.mcreator.kaczka.world.features.ores.ToretzanOreFeature;
+import net.mcreator.kaczka.world.features.ores.SapphireoreFeature;
 import net.mcreator.kaczka.world.features.ores.RubyoreFeature;
 import net.mcreator.kaczka.world.features.ores.NetherdiamondoreFeature;
 import net.mcreator.kaczka.world.features.ores.JadeitegraveloreFeature;
@@ -26,6 +27,7 @@ import net.mcreator.kaczka.world.features.ores.JadeitegemoreFeature;
 import net.mcreator.kaczka.world.features.ores.GildedclayFeature;
 import net.mcreator.kaczka.world.features.ores.ForavaraOreFeature;
 import net.mcreator.kaczka.world.features.ores.DustyrubyoreFeature;
+import net.mcreator.kaczka.world.features.lakes.NitrogenFeature;
 import net.mcreator.kaczka.world.features.NetherreactorspawnFeature;
 import net.mcreator.kaczka.world.features.DustytreeFeature;
 import net.mcreator.kaczka.world.features.DustyruinednetherportalFeature;
@@ -65,6 +67,8 @@ public class KaczkaModFeatures {
 			GenerationStep.Decoration.SURFACE_STRUCTURES, DustyhouseFeature.GENERATE_BIOMES, DustyhouseFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> DUSTYRUBYORE = register("dustyrubyore", DustyrubyoreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, DustyrubyoreFeature.GENERATE_BIOMES, DustyrubyoreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SAPPHIREORE = register("sapphireore", SapphireoreFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.UNDERGROUND_ORES, SapphireoreFeature.GENERATE_BIOMES, SapphireoreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> AETHERPORTALRUINED = register("aetherportalruined", AetherportalruinedFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, AetherportalruinedFeature.GENERATE_BIOMES,
 					AetherportalruinedFeature::placedFeature));
@@ -79,6 +83,8 @@ public class KaczkaModFeatures {
 					NetherreactorspawnFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> JADEITEGEMORE = register("jadeitegemore", JadeitegemoreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, JadeitegemoreFeature.GENERATE_BIOMES, JadeitegemoreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> NITROGEN = register("nitrogen", NitrogenFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.LAKES, NitrogenFeature.GENERATE_BIOMES, NitrogenFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

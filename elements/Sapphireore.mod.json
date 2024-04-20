@@ -126,7 +126,9 @@
     "onDestroyedByPlayer": {
       "name": "Sapphireoredestroy"
     },
-    "spawnWorldTypes": [],
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Sapphirecave"
